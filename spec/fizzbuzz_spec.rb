@@ -1,6 +1,12 @@
 require 'fizzbuzz'
 
 describe 'fizzbuzz' do
+    it 'returns a number when passed a number' do
+        expect(fizzbuzz(1)).to eq 1
+    end
+end
+
+describe 'fizzbuzz' do
     it 'returns "fizz" when passed 3' do
         expect(fizzbuzz(3)).to eq 'fizz'
     end
